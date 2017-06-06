@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+  <row weight="1">
+    <button icon="home" ontap="core.keyboard.press,home" />
+    <button icon="search" ontap="open_goto" />
+    <button icon="stop" ontap="core.keyboard.press,end" />
+  </row>
+  <row weight="6">
+    <button icon="left" ontap="core.keyboard.press,left" />
+    <button icon="right" ontap="core.keyboard.press,right" />
+  </row>
+  <row weight="2">
+    <button icon="rwd" ontap="core.keyboard.press,up" />
+    <button icon="ff" ontap="core.keyboard.press,down" />
+  </row>
+  <row weight="1">
+    <button icon="rotateleft" ontap="core.keyboard.press,r" />
+    <button icon="power" ontap="core.keyboard.press,b" />
+    <button icon="lock" ontap="core.keyboard.press,f" />
+    <button icon="playpause" ontap="core.keyboard.press,p" />
+  </row>
+</layout>
